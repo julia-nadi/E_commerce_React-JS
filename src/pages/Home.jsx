@@ -39,7 +39,7 @@ export default function Home() {
           <Row className="align-items-center g-4 g-lg-5">
             <Col md={{ span: 6, order: 2 }} className="d-flex justify-content-md-end">
               <img
-                src="/hero-banner.png"
+                src={`${import.meta.env.BASE_URL}hero-banner.png`}
                 alt="Glowy — up to 36% off + free pouch. Dewy Glow Essentials"
                 className="hero-banner-img"
               />
